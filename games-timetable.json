@@ -2,7 +2,8 @@
   {
     "team1": "St. Mary's B",
     "team2": "St. Cuthbert's A",
-    "date": "16/10/2021 21:00",
+    "date": "16/10/2021",
+    "time": "21:00",
     "score": "45 -65",
     "venue": "Sports Hall Section A"
   },
@@ -10,6 +11,7 @@
     "team1": "Collingwood A",
     "team2": "St. Cuthbert's A",
     "date": "23/10/2021 19:00",
+    "time": "19:00",
     "score": "46 -27",
     "venue": "Sports Hall Section B"
   },
@@ -17,6 +19,7 @@
     "team1": "Grey A",
     "team2": "Trevelyan A",
     "date": "24/10/2021 21:00",
+    "time": "19:00",
     "score": "64 -17",
     "venue": "Sports Arena A"
   },
@@ -24,6 +27,7 @@
     "team1": "Collingwood A",
     "team2": "St. Mary's A",
     "date": "30/10/2021 19:00",
+    "time": "19:00",
     "score": "40 -0",
     "venue": "Sports Hall Section B"
   },
@@ -31,6 +35,7 @@
     "team1": "St. Cuthbert's A",
     "team2": "Grey A",
     "date": "30/10/2021 19:00",
+    "time": "19:00",
     "score": "40 -39",
     "venue": "Sports Arena C"
   },
@@ -38,6 +43,7 @@
     "team1": "St. Mary's A",
     "team2": "Grey A",
     "date": "06/11/2021 19:00",
+    "time": "19:00",
     "score": "0 - 0",
     "venue": "Sports Hall Section B"
   },
@@ -45,6 +51,7 @@
     "team1": "Grey A",
     "team2": "Collingwood A",
     "date": "13/11/2021 19:00",
+    "time": "19:00",
     "score": "25 -106",
     "venue": "Sports Arena C"
   },
@@ -52,6 +59,7 @@
     "team1": "Trevelyan A",
     "team2": "Collingwood A",
     "date": "20/11/2021 17:00",
+    "time": "17:00",
     "score": "24 -96",
     "venue": "Sports Hall Section B"
   },
@@ -59,6 +67,7 @@
     "team1": "Trevelyan A",
     "team2": "St. Mary's A",
     "date": "27/11/2021 17:00",
+    "time": "17:00",
     "score": "40 -0",
     "venue": "Sports Hall Section B"
   },
@@ -66,42 +75,32 @@
     "team1": "St. Cuthbert's A",
     "team2": "Trevelyan A",
     "date": "27/11/2021 18:00",
+    "time": "18:00",
     "score": "55 -26",
     "venue": "Sports Hall Section C"
   },
   {
-    "team1": "a",
-    "team2": "b",
-    "date": "c",
-    "score": "d",
-    "venue": "e"
-  },
-  {
-    "team1": "a",
-    "team2": "b",
-    "date": "c",
-    "score": "d",
-    "venue": "e"
-  },
-  {
-    "team1": "Van Mildert",
-    "team2": "Trev",
-    "date": "01-01-2022",
-    "score": "40 - 20",
+    "team1": "dating@gmail.com",
+    "team2": "geee",
+    "date": "12-01-2022",
+    "time": "20:00",
+    "score": "0-0",
     "venue": "Sports Hall"
   },
   {
-    "team1": "testun@gmail.com",
-    "team2": "dkjsf",
-    "date": "dkfj",
-    "score": "dkf",
-    "venue": "dkfjdkj"
+    "team1": "skfdsk@gmail.com",
+    "team2": "12223",
+    "date": "2022-01-18",
+    "time": "21:00",
+    "score": "100-10",
+    "venue": "Sports hall"
   },
   {
-    "team1": "testing@gmail.com",
-    "team2": "testinb",
-    "date": "2003-09-30",
-    "score": "tesitnt",
-    "venue": "testing"
+    "team1": "skfdsk@gmail.com",
+    "team2": "12223",
+    "date": "2022-01-18",
+    "time": "21:00",
+    "score": "100-10",
+    "venue": "Sports hall"
   }
 ]

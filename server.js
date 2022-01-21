@@ -25,11 +25,34 @@ app.get('/list', function (req, resp){
       if (bball.team1.includes(q)) {
         answers.push(bball);
       }
+      if(bball.team2.includes(q)){
+        answers.push(bball)
+      }
     }
     resp.json(answers); // resp.send would also send as JSON
   });
 
+  app.get('/bball/question_date', function (req, resp) {
+    const d = req.query.bball_timetable_date;
+    const answers_date = [];
+    for (const bball_date of testing) {
+      if (bball_date.date.includes(d)) {
+        answers_date.push(bball_date);
+      }
+    }
+    resp.json(answers_date); // resp.send would also send as JSON
+  });
 
+  app.get('/bball/question_time', function (req, resp) {
+    const t = req.query.bball_timetable_time;
+    const answers_time = [];
+    for (const bball_time of testing) {
+      if (bball_time.time.includes(t)) {
+        answers_time.push(bball_time);
+      }
+    }
+    resp.json(answers_time); // resp.send would also send as JSON
+  }); 
 
 app.post('/timetable/new', function(req, resp){
   console.log(req.body);
@@ -40,10 +63,13 @@ app.post('/timetable/new', function(req, resp){
   fs.writeFile('games-timetable.json', data, finished);
   function finished(err){
     console.log("All set ")
-    resp.send("Updated")
+    resp.send(new_game);
+    
+
   }
   
   
 });
 
+module.exports = app;
 app.listen(8090);
