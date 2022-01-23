@@ -10,7 +10,7 @@
   {
     "team1": "Collingwood A",
     "team2": "St. Cuthbert's A",
-    "date": "23/10/2021 19:00",
+    "date": "23/10/2021",
     "time": "19:00",
     "score": "46 -27",
     "venue": "Sports Hall Section B"
@@ -18,15 +18,15 @@
   {
     "team1": "Grey A",
     "team2": "Trevelyan A",
-    "date": "24/10/2021 21:00",
-    "time": "19:00",
+    "date": "24/10/2021",
+    "time": "21:00",
     "score": "64 -17",
     "venue": "Sports Arena A"
   },
   {
     "team1": "Collingwood A",
     "team2": "St. Mary's A",
-    "date": "30/10/2021 19:00",
+    "date": "30/10/2021",
     "time": "19:00",
     "score": "40 -0",
     "venue": "Sports Hall Section B"
@@ -34,7 +34,7 @@
   {
     "team1": "St. Cuthbert's A",
     "team2": "Grey A",
-    "date": "30/10/2021 19:00",
+    "date": "30/10/2021",
     "time": "19:00",
     "score": "40 -39",
     "venue": "Sports Arena C"
@@ -42,7 +42,7 @@
   {
     "team1": "St. Mary's A",
     "team2": "Grey A",
-    "date": "06/11/2021 19:00",
+    "date": "06/11/2021",
     "time": "19:00",
     "score": "0 - 0",
     "venue": "Sports Hall Section B"
@@ -50,7 +50,7 @@
   {
     "team1": "Grey A",
     "team2": "Collingwood A",
-    "date": "13/11/2021 19:00",
+    "date": "13/11/2021",
     "time": "19:00",
     "score": "25 -106",
     "venue": "Sports Arena C"
@@ -58,7 +58,7 @@
   {
     "team1": "Trevelyan A",
     "team2": "Collingwood A",
-    "date": "20/11/2021 17:00",
+    "date": "20/11/2021",
     "time": "17:00",
     "score": "24 -96",
     "venue": "Sports Hall Section B"
@@ -66,7 +66,7 @@
   {
     "team1": "Trevelyan A",
     "team2": "St. Mary's A",
-    "date": "27/11/2021 17:00",
+    "date": "27/11/2021",
     "time": "17:00",
     "score": "40 -0",
     "venue": "Sports Hall Section B"
@@ -74,7 +74,7 @@
   {
     "team1": "St. Cuthbert's A",
     "team2": "Trevelyan A",
-    "date": "27/11/2021 18:00",
+    "date": "27/11/2021",
     "time": "18:00",
     "score": "55 -26",
     "venue": "Sports Hall Section C"
@@ -102,5 +102,20 @@
     "time": "21:00",
     "score": "100-10",
     "venue": "Sports hall"
+  },
+  {
+    "team2": "",
+    "date": "",
+    "time": "",
+    "score": "",
+    "venue": ""
+  },
+  {
+    "team1": "Collinwood",
+    "team2": "",
+    "date": "",
+    "time": "",
+    "score": "",
+    "venue": ""
   }
 ]

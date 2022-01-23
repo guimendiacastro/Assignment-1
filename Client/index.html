@@ -15,67 +15,76 @@
       </head>
     <body>
 	<h1 class ="display-3"> Basketball Society </h1>
-	<div id="content"></div>
-	<button id="get">Get instruments</button>
+	
 
-    <div class=m-4>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Contents</a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="admin.html" class="nav-item nav-link active">Admin</a>
-                    
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar navbar-light" style="background-color: #ffffff;">
+      <a class="navbar-brand" href="admin.html">
+        <img src="durham_uni_logo.jpeg" width="40" height="40" class="d-inline-block align-top" alt="">
+        Admin
+      </a>
+    </nav>
 	
 <!--  <form action="http://127.0.0.1:8090/table" id = 'form1'>
         <input name="search"></input>
         <button type="submit">Submit form</button>
     </form>
 -->
+<div class="container">
+<button type="button" class="btn btn-dark" onClick="refreshPage()">Refresh</button>
 
-<button type="submit" onClick="refreshPage()">Refresh Button</button>
-    <form id='bball_question_form_team' action='bball/timetable'>
-        <label for='bball_timetable'>Search for Games</label><input id='bball_timetable' name='bball_timetable'></input>
-        <input type='submit'></input>
-      </form>
+    
   
-      <form id='bball_question_form_date' action='bball/timetable_date'>
-        <div class="form-group">
-        <label for='bball_timetable_date'>Search for Games</label>
-        <input type="text" class="form-control" id="bball_timetable_date" name='bball_timetable_date' aria-describedby="emailHelp" placeholder="Enter email">
+      <form id='bball_question_form_team' action='bball/timetable'>
+        <label for='bball_timetable'>Search for Games by Team Name</label>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="bball_timetable" name='bball_timetable' aria-describedby="emailHelp" placeholder="Enter Team">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
-      <form id='bball_question_form_time' action='bball/timetable_time'>
-        <div class="form-group">
-        <label for='bball_timetable_time'>Search for Games</label>
-        <input type="text" class="form-control" id="bball_timetable_time" name='bball_timetable_time' aria-describedby="emailHelp" placeholder="Enter email">
+
+      <form id='bball_question_form_date' action='bball/timetable_date'>
+        <label for='bball_timetable_date'>Search for Games by Date</label>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="bball_timetable_date" name='bball_timetable_date' aria-describedby="emailHelp" placeholder="Enter Date">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       
+      <form id='bball_question_form_time' action='bball/timetable_time'>
+        <label for='bball_timetable_time'>Search for Games by Time</label>
+        <div class="row">
+          <div class="col">
+           
+            <input type="time" class="form-control" id="bball_timetable_time" name='bball_timetable_time' aria-describedby="emailHelp" placeholder="Enter Time">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+        </div>
+      </form>
 
       <table class="table" id='fetch'>
         <thead>
           <tr>
             <th scope="col">Team 1</th>
             <th scope="col">Team 2</th>
-            <th scope="col">Date/Time</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
             <th scope="col">Score</th>
             <th scope="col">Venue</th>
           </tr>
         </thead>
     </table>
 
-    
+</div>
     </body>
 </html>
