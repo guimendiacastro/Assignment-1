@@ -34,11 +34,18 @@
 
     
   
-      <form id='bball_question_form_team' action='bball/timetable'>
+      <form id='bball_question_form' action='bball/timetable'>
         <label for='bball_timetable'>Search for Games by Team Name</label>
         <div class="row">
           <div class="col">
             <input type="text" class="form-control" id="bball_timetable" name='bball_timetable' aria-describedby="emailHelp" placeholder="Enter Team">
+          </div>
+          <div class='col'>
+            <select class="form-select" aria-label="Default select example" id = 'div' name= 'div'>
+              <option selected>Enter Division you want to Search</option>
+              <option value="div1">Div One</option>
+              <option value="div2">Div Two</option>
+            </select>
           </div>
           <div class="col">
             <button type="submit" class="btn btn-primary">Search</button>
@@ -51,7 +58,14 @@
         <label for='bball_timetable_date'>Search for Games by Date</label>
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" id="bball_timetable_date" name='bball_timetable_date' aria-describedby="emailHelp" placeholder="Enter Date">
+            <input type="date" class="form-control" id="bball_timetable_date" name='bball_timetable_date' aria-describedby="emailHelp" placeholder="Enter Date">
+          </div>
+          <div class='col'>
+            <select class="form-select" aria-label="Default select example" id = 'div_date' name= 'div_date'>
+              <option selected>Enter Division you want to Search</option>
+              <option value="div1">Div One</option>
+              <option value="div2">Div Two</option>
+            </select>
           </div>
           <div class="col">
             <button type="submit" class="btn btn-primary">Search</button>
@@ -66,6 +80,13 @@
            
             <input type="time" class="form-control" id="bball_timetable_time" name='bball_timetable_time' aria-describedby="emailHelp" placeholder="Enter Time">
           </div>
+          <div class='col'>
+            <select class="form-select" aria-label="Default select example" id = 'div_time' name= 'div_time'>
+              <option selected>Enter Division you want to Search</option>
+              <option value="div1">Div One</option>
+              <option value="div2">Div Two</option>
+            </select>
+          </div>
           <div class="col">
             <button type="submit" class="btn btn-primary">Search</button>
           </div>
@@ -77,6 +98,7 @@
           <tr>
             <th scope="col">Team 1</th>
             <th scope="col">Team 2</th>
+            <th scope="col">Division</th>
             <th scope="col">Date</th>
             <th scope="col">Time</th>
             <th scope="col">Score</th>

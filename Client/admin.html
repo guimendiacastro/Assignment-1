@@ -15,24 +15,19 @@
       </head>
     <body>
 	<h1 class ="display-3"> Basketball Society </h1>
-	<div id="content"></div>
-	<button id="get">Get instruments</button>
+ 
 
-    <div class=m-4>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Contents</a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link active">Client</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
+  <nav class="navbar navbar-light" style="background-color: #ffffff;">
+    <a class="navbar-brand" href="index.html">
+      <img src="durham_uni_logo.jpeg" width="40" height="40" class="d-inline-block align-top" alt="">
+      Home
+    </a>
+  </nav>
+<!-- Background image -->
+<div class="has-bg-img bg-purple bg-blend-multiply">
+  <h4>Background blend mode: Multiply</h4>
+  <img class="bg-img" src="background_pic.png" alt="...">
+</div>
 <!--
     <div class="container">
 
@@ -54,26 +49,85 @@
     <form action = "http://127.0.0.1:8090/timetable/new" method='POST'>
         <div class="form-group">
           <label for="exampleInputEmail1">Team</label>
-          <select class="custom-select mr-sm-2" id="team1" name='team1'>
-            <option selected>Choose...</option>
-            <option value="Collinwood">One</option>
-            <option value="Trevs">Two</option>
-            <option value="Van Mildert">Three</option>
+          <select class="form-select" aria-label="Default select example" id = 'team1' name= 'team1'>
+            <option selected>Select a Team</option>
+            <option value="Josephine Butler A">Josephine Butler A</option>
+            <option value="Josephine Butler B">Josephine Butler B</option>
+            <option value="Van Mildert A">Van Mildert A</option>
+            <option value="Van Mildert B">Van Mildert B</option>
+            <option value="Collingwood A">Collingwood A</option>
+            <option value="Collingwood B">Collingwood B</option>
+            <option value="Ustinov A">Ustinov A</option>
+            <option value="John Snow A">John Snow A</option>
+            <option value="John Snow B">John Snow B</option>
+            <option value="St. Hild & St. Bede A">St. Hild & St. Bede A</option>
+            <option value="St. Hild & St. Bede B">St. Hild & St. Bede B</option>
+            <option value="St. Chad's A">St. Chad's A</option>
+            <option value="St. Aidan's A">St. Aidan's A</option>
+            <option value="St. Aidan's B">St. Aidan's B</option>
+            <option value="Hatfield A">Hatfield A</option>
+            <option value="St. Cuthbert's A">St. Cuthbert's A</option>
+            <option value="Grey A">Grey A</option>
+            <option value="University A">University A</option>
+            <option value="University B">University B</option>
+            <option value="South A">South A</option>
+            <option value="South B">South B</option>
+            <option value="St. John's A">St. John's A</option>
+            <option value="Combined Trevs St Marys">Combined Trevs St Marys</option>
+            <option value="Stephenson A">Stephenson A</option>
+            
           </select>
          <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>--> 
         </div>
 
-
-
+    
 
 
 
 
         
         <div class="form-group">
-          <label for="exampleInputPassword1">Team</label>
-          <input type="text" class="form-control" id="team2" placeholder="Enter Team" name='team2'>
+          <label for="exampleInputEmail1">Team</label>
+          <select class="form-select" aria-label="Default select example" id = 'team2' name= 'team2'>
+            <option selected>Select a Team</option>
+            <option value="Josephine Butler A">Josephine Butler A</option>
+            <option value="Josephine Butler B">Josephine Butler B</option>
+            <option value="Van Mildert A">Van Mildert A</option>
+            <option value="Van Mildert B">Van Mildert B</option>
+            <option value="Collingwood A">Collingwood A</option>
+            <option value="Collingwood B">Collingwood B</option>
+            <option value="Ustinov A">Ustinov A</option>
+            <option value="John Snow A">John Snow A</option>
+            <option value="John Snow B">John Snow B</option>
+            <option value="St. Hild & St. Bede A">St. Hild & St. Bede A</option>
+            <option value="St. Hild & St. Bede B">St. Hild & St. Bede B</option>
+            <option value="St. Chad's A">St. Chad's A</option>
+            <option value="St. Aidan's A">St. Aidan's A</option>
+            <option value="St. Aidan's B">St. Aidan's B</option>
+            <option value="Hatfield A">Hatfield A</option>
+            <option value="St. Cuthbert's A">St. Cuthbert's A</option>
+            <option value="Grey A">Grey A</option>
+            <option value="University A">University A</option>
+            <option value="University B">University B</option>
+            <option value="South A">South A</option>
+            <option value="South B">South B</option>
+            <option value="St. John's A">St. John's A</option>
+            <option value="Combined Trevs St Marys">Combined Trevs St Marys</option>
+            <option value="Stephenson A">Stephenson A</option>
+            
+          </select>
+
+           
         </div>
+        <div class="form-group">
+          <select class="form-select" aria-label="Default select example" id = 'div' name= 'div'>
+            <option selected>Open this select menu</option>
+            <option value="div1">One</option>
+            <option value="div2">Two</option>
+          </select>
+        </div>
+
+
         <div class="form-group">
             <label for="exampleInputPassword1">Date</label>
             <input type="date" class="form-control" id="date" placeholder="Date" name='date'>

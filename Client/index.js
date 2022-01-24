@@ -41,7 +41,7 @@ function refreshPage(){
   window.location.reload();
 } 
 
-const qf = document.getElementById("bball_question_form_team");
+const qf = document.getElementById("bball_question_form");
 
 qf.addEventListener('submit', async function(event){
   // stop the form from being submitted
@@ -64,7 +64,7 @@ qf.addEventListener('submit', async function(event){
   for (let bball of testing){  // assuming goats is a list
     // backtick expressions are helpful for simple templating
     //lis += `<li><b>${bball.team1}</b>: ${bball.team2}`;
-    temp = [bball.team1, bball.team2, bball.date, bball.time, bball.score, bball.venue]
+    temp = [bball.team1, bball.team2, bball.div,bball.date, bball.time, bball.score, bball.venue]
     arr.push(temp)
   }
   //ql.innerHTML = lis;
@@ -115,7 +115,7 @@ bd.addEventListener('submit', async function(event){
   for (let bball_date of testing_date){  // assuming goats is a list
     // backtick expressions are helpful for simple templating
     //lis += `<li><b>${bball.team1}</b>: ${bball.team2}`;
-    temp1 = [bball_date.team1, bball_date.team2, bball_date.date, bball_date.time, bball_date.score, bball_date.venue]
+    temp1 = [bball_date.team1, bball_date.team2, bball_date.div ,bball_date.date, bball_date.time, bball_date.score, bball_date.venue]
     arr_date.push(temp1)
   }
   //ql.innerHTML = lis;
@@ -167,7 +167,7 @@ bt.addEventListener('submit', async function(event){
   for (let bball_time of testing_time){  // assuming goats is a list
     // backtick expressions are helpful for simple templating
     //lis += `<li><b>${bball.team1}</b>: ${bball.team2}`;
-    temp2 = [bball_time.team1, bball_time.team2, bball_time.date, bball_time.time, bball_time.score, bball_time.venue]
+    temp2 = [bball_time.team1, bball_time.team2, bball_time.div, bball_time.date, bball_time.time, bball_time.score, bball_time.venue]
     arr_time.push(temp2)
   }
   //ql.innerHTML = lis;
